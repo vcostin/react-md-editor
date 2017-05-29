@@ -1,9 +1,9 @@
 import React from 'react';
-import Placeholder from '../components/Placeholder';
+import MarkDownEditor from '../components/MarkDownEditor';
 
 const Root = () => (
   <div>
-    <Placeholder />
+    <MarkDownEditor />
   </div>
 );
 

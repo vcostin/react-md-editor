@@ -1,5 +1,5 @@
 {
-  "name": "place-holder",
+  "name": "md-editor",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -11,12 +11,11 @@
   "author": "",
   "license": "MIT",
   "dependencies": {
+    "marked": "^0.3.6",
     "prop-types": "^15.5.9",
     "react": "^15.4.2",
     "react-dom": "^15.4.2",
-    "react-redux": "^5.0.4",
-    "redux": "^3.6.0",
-    "redux-logger": "^3.0.1"
+    "sanitize-html": "^1.14.1"
   },
   "devDependencies": {
     "babel-core": "^6.23.1",

@@ -1,2 +1,2 @@
-# placeholder
-React hot-reload boilerplate
+# md-editor
+React markdown editor
