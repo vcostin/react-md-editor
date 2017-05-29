@@ -14,8 +14,7 @@
     "marked": "^0.3.6",
     "prop-types": "^15.5.9",
     "react": "^15.4.2",
-    "react-dom": "^15.4.2",
-    "sanitize-html": "^1.14.1"
+    "react-dom": "^15.4.2"
   },
   "devDependencies": {
     "babel-core": "^6.23.1",
