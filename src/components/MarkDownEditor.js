@@ -19,11 +19,15 @@ class MarkDownEditor extends Component {
 
   render() {
     return (
-      <div>
-        <h1>MD Editor</h1>
-        <div className="MarkDownEditor">
-          <MarkDownView mdViewContent={this.state.mdContent} />
+      <div className="container">
+        <div className="row ">
+          <div className="col-md-12 text-center">
+            <h1 className="md-header">MD Editor</h1>
+          </div>
+        </div>
+        <div className="MarkDownEditor row">
           <MarkDownInput onInputChange={this.handleInputChange} />
+          <MarkDownView mdViewContent={this.state.mdContent} />
         </div>
       </div>
     );

@@ -6,7 +6,7 @@ class MarkDownView extends Component {
   render() {
     return (
       <div
-        className="MarkDownView md-element markdown-body"
+        className="MarkDownView col-md-6"
         dangerouslySetInnerHTML={{ __html: marked(this.props.mdViewContent) }}
       />
     );
